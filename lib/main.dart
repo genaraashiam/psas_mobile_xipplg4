@@ -10,7 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Login Page',
+      title: 'Login page',
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
@@ -49,7 +49,7 @@ class _LoginPageState extends State<LoginPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Login Page'),
+        title: const Text('Page Layout'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),
@@ -59,7 +59,7 @@ class _LoginPageState extends State<LoginPage> {
             TextField(
               controller: _usernameController,
               decoration: const InputDecoration(
-                labelText: 'Username',
+                labelText: 'name',
                 border: OutlineInputBorder(),
               ),
             ),
